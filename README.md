@@ -1,2 +1,2 @@
-# Natural Language Processing with Disaster Tweets
-Predicting  which Tweets are about real disasters and which ones are not
+# Natural Language Processing with Pytorch | KFold | Optuna
+Predicting which Tweets are about real negative and which ones are not
