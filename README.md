@@ -30,7 +30,7 @@
   
 ## Preprocessing steps 
   * Train and Test dataframes contains tweet phrases.Target have consist of two class.We are predicting whether a given tweet is about a real disaster or   not. If so, predict a 1. If not, predict a 0.
-  First,We applied preprocessing function over tweets.This functions remove puncations from words and ignore some stopwords from  tweets.We applied all.   function before split test data from train data. Theni,Added all words at a  dictionary that contain uniuqe words and unique key. Namely, We labeled     words like an  integer value. Then we created new train and test dataframe accoridng this labeled data
+  First,We applied preprocessing function over tweets.This functions remove puncations from words and ignore some stopwords from  tweets.We applied all   function before split test data from train data. Theni,Added all words at a  dictionary that contain uniuqe words and unique key. Namely, We labeled     words like an  integer value. Then we created new train and test dataframe accoridng this labeled data
  
 
 ## Implementation with Pytorch and sklearn
