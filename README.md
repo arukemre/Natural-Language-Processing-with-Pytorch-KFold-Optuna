@@ -18,15 +18,12 @@
 
 
  F1 is calculated as follows:
+ 
  <img width="493" alt="Screen Shot 2023-01-09 at 21 15 16" src="https://user-images.githubusercontent.com/64266044/211378713-52f154cd-dedb-4930-b242-bc1e82b903c7.png">
 
 
+
 where:
-
-𝑝𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛=𝑇𝑃𝑇𝑃+𝐹𝑃
-𝑟𝑒𝑐𝑎𝑙𝑙=𝑇𝑃𝑇𝑃+𝐹𝑁
-and:
-
 True Positive [TP] = your prediction is 1, and the ground truth is also 1 - you predicted a positive and that's true!
 False Positive [FP] = your prediction is 1, and the ground truth is 0 - you predicted a positive, and that's false.
 False Negative [FN] = your prediction is 0, and the ground truth is 1 - you predicted a negative, and that's false.
