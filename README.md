@@ -18,7 +18,7 @@
 
 
     F1 is calculated as follows:
-    𝐹1= $ 2*Precision*Recall $
+    𝐹1= $2*Precision*Recall$
     where:
 
     𝑝𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛=𝑇𝑃𝑇𝑃+𝐹𝑃
