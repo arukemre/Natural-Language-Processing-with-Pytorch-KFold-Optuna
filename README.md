@@ -15,6 +15,9 @@
   - To learn more information related `optuna` follow link https://optuna.org/
   
   
-##Implementation with Pytorch and sklearn
+## Implementation with Pytorch and sklearn
 
- 
+*The K Fold Cross Validation is used to evaluate the performance of the RNN(LSTM) model on the dataset. This method is implemented using the sklearn    library, while the model is trained using Pytorch.Happening all of this we tuned parameters with `optuna`.
+*We define the  Neural network architecture with one  LSTM layers and one fully connected layer to classify the sentences into one of the two categories. We add two Dropout layers in the model to limit the risk of overfitting.
+*We initialize the nn.BCEWithLogitsLoss loss function for the classification, the device to utilize the GPU.
+*Moreover, we generate 4 folds using the Kfold function, where we have random splits and replicable results with random_state=0 . So, it divides the dataset into 3 parts for training and the remaining part for testing.
